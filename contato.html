@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Beatriz</title>
+
+    <!--Google Fonts-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      </style>
+
+<link rel="stylesheet" href="contato.css">
+    
+</head>
+<body>
+
+    <section>
+
+        <h2>Contato</h2>
+
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu Nome" autocomplete="off" required minlength="4">
+            <label>Email</label>
+            <input type="email" name="name" placeholder="Digite seu Email"autocomplete="off" required>
+            <label>Mensagem</label>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua Mensagem" required></textarea>
+            <button type="submit" onclick="replaceDocument">Enviar</button>
+    
+            <input type="hidden" name="accessKey" value="189f528b-cd37-435f-842e-2d3cb4a5b733">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/Annabiabonifacio.github.io-main/Obrigado.html">
+    </section>
+
+
+
+        
+
+</body>
+</html>
+
+<script>
+    function replaceDocument() {
+      window.location.replace("Obrigado.html");
+    }
+    </script>
